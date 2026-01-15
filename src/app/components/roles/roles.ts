@@ -16,4 +16,13 @@ export class Roles {
   isActive: boolean = false
   currentDate: Date = new Date()
   inputType: string = "radio"
+  selectedState: string = ""
+
+  showWelcomeAlert(){
+    alert("welcome to angular")
+  }
+
+  showMessage(message: string){
+    alert(message)
+  }
 }
