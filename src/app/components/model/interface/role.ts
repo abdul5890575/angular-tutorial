@@ -3,3 +3,15 @@ export interface IRole {
     role: string
 
 }
+
+export interface APIResponseModal {
+    message: string,
+    result: boolean,
+    data: any
+}
+
+
+export interface IDesignation {
+    designationId: number,
+    designation: string,
+}
